@@ -1,2 +1,2 @@
-# chess-game
-Chess with c++
+#chess game with c++
+
