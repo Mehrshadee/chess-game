@@ -704,13 +704,13 @@ int main() {
 									print(a);
 								}
 								else {
-									cout << "ERROR                 MAGHSAD MORED GHABOL NIST\n";
+									cout << "ERROR                 incorrect destination\n";
 								}
 							
 
 						}
 						else {
-							cout << "ERROR                  NOBAT SEFID AST\n";
+							cout << "ERROR          it is whites turn\n";
 						}
 					}
 					else if (a[i] > 47) {
@@ -745,11 +745,11 @@ int main() {
 									print(a);
 								}
 								else {
-									cout << "ERROR                 MAGHSAD MORED GHABOL NIST\n";
+									cout << "ERROR                 incorrect destination\n";
 								}							
                 	}
 						else {
-							cout << "ERROR                  NOBAT SIAH AST\n";
+							cout << "ERROR          it is blacks turn\n";
 						}
 					}
 			}		
