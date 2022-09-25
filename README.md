@@ -1,7 +1,13 @@
 #CHESS GAME (simple edition)
-.
-.
-.
+
+
+
+
+
+
+
+
+
 ####Description : chess game with c++
 
 
