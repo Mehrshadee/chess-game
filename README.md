@@ -3,12 +3,12 @@
 
 
 
++
 
 
 
 
-
-####Description : chess game with c++
+####Descriptions : 
 
 
 First you have to select the horizontal and vertical location of the chessman respectively,
