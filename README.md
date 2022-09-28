@@ -69,8 +69,6 @@ Q (QUEEN) : is a combination of F's and R's movement
 K (KING) : is able to mave a single step ( horizontaly/verticaly )
 
 
-+
-
 
 As they are able to eliminate each other I used to delet the eliminated chestman and replace it with the attacker.
 
@@ -80,13 +78,22 @@ For making this game a bit easier for the players i avoided to write the CHECK r
 eliminated.
 
 
-I used to delet the privious printings and when ever a movement accures , all of the privious prinitings would be deleted.
+
++
+
+
++BOARDGAME:
+
+The "print" function is used to load the boardgame using ASCII codes of the charactors and the ARRAYS including chestmen's name in the correct position.
+
+
+The programm will delet the privious printings and when ever a movement accures , All of the privious prinitings would be omited.
 
 
 As it is considerable the table is updating after any movements and the privious one would be replaced by the new one.
 
 
-I created a function for all of the movements and rules using BOOLIAN so I just called them in the main whenever it needed.
++
 
 
 +How to move the chestmen :
@@ -105,6 +112,9 @@ the programm will replace to arrays if the destination be space and if not, The 
 
 
 location with the space.
+
+
+I created a function for all of the movements and rules using BOOLIAN so I just called them in the main whenever it needed.
 
 
 Chestmen are not allowed to friendly-fire! and after each mistake the programm will give you another chance to fix it.
