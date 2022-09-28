@@ -9,7 +9,7 @@ CHESS GAME (simple edition)
 
 
 
-####Descriptions : 
++Descriptions : 
 
 
 First you have to select the horizontal and vertical location of the chessman respectively,
