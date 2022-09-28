@@ -45,9 +45,6 @@ Then I used to save the name of the chestmen in arrays using only two letters, W
 And the second one is standing for the color of the chestman.
 
 
-+
-
-
 Then I worked on the correct movement of the chestmen:
 
 
@@ -70,10 +67,10 @@ K (KING) : is able to mave a single step ( horizontaly/verticaly )
 
 
 
-As they are able to eliminate each other I used to delet the eliminated chestman and replace it with the attacker.
+As they are able to eliminate each other I used to delet the eliminated chestman and replace it with the attacker. (Using arrays)
 
 
-For making this game a bit easier for the players i avoided to write the CHECK rule and decided to make it simple by ending the game shile each teams King be 
+For making this game a bit easier for the players I avoided to write the CHECK rule and decided to make it simple by ending the game while each teams King be 
 
 eliminated.
 
