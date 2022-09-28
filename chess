@@ -5,21 +5,19 @@ using namespace std;
 void print(int board[]) {
 	int i = 0;
 	string c[64]={
-	"RB", "AB", "FB", "VB", "KB", "FB", "AB", "RB",
+	"RB", "KB", "BB", "QB", "KB", "BB", "KB", "RB",
 	"SB", "SB", "SB", "SB", "SB", "SB", "SB", "SB",
 	"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
 	"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
 	"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
 	"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
 	"SW", "SW", "SW", "SW", "SW", "SW", "SW", "SW",
-	"RW", "AW", "FW", "VW", "KW", "FW", "AW", "RW" };
-     
+	"RW", "KW", "BW", "QW", "KW", "BW", "KW", "RW" };
 	char cha ='A';
 	cout << endl;
 	for(int i=1;i<=8;i++)
 	cout << "    "<<i << "  ";
 	cout << endl;
-
 	{cout << char(218);
 	int aa = 7;
 	while (aa--) {
@@ -211,7 +209,6 @@ void print(int board[]) {
 	}
 	cout << "  " << cha++;
 	cout << endl;
-
 	{cout << char(179);
 	int aa = 4;
 	while (aa--) {
