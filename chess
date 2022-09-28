@@ -2,243 +2,6 @@
 #include<string>
 #define re return
 using namespace std;
-void khane(){   
-    {//khatte avval
-	cout<<char(218);
-    int b=7;
-    while(b--) 
-        {
-        int a=4;
-        while(a--)
-            {cout<<char(196);}
-        cout<<char(194);
-	    }
-	int a=4;
-    while(a--)
-        {cout<<char(196);}
-    cout<<char(191);
-    }
-	cout<<endl;
-	
-int c=1;
-while(c--)
-	{
-	{//khane avval bala
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;
-    {//khane avval vasat
-    cout<<char(179);
-    int a=4;
-    while(a--)
-    {
-        cout<<char(178)<<char(32)<<char(32)<<char(178)<<char(179);
-        cout<<char(178)<<char(32)<<char(32)<<char(178)<<char(179);
-    }
-    }
-   	cout<<endl;
-	{//khane avval payin
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;
-    {//khatte dovvom
-    cout<<char(195);
-	int a=7;
-	while(a--)
-	    {
-	    cout<<char(196)<<char(196)<<char(196)<<char(196)<<char(197);
-	    }
-    cout<<char(196)<<char(196)<<char(196)<<char(196)<<char(180);
-	}
-    cout<<endl;
-	{//khane dovvom bala
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;
-    {//khane dovvom vasat
-    cout<<char(179);
-    int a=4;
-    while(a--)
-    {
-        cout<<char(178)<<char(32)<<char(32)<<char(178)<<char(179);
-        cout<<char(178)<<char(32)<<char(32)<<char(178)<<char(179);
-    }
-    }
-   	cout<<endl;
-	{//khane dovvom payin
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(178);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;
-    {//khatte dovvom (miyani)
-    cout<<char(195);
-	int a=7;
-	while(a--)
-	    {
-	    cout<<char(196)<<char(196)<<char(196)<<char(196)<<char(197);
-	    }
-    cout<<char(196)<<char(196)<<char(196)<<char(196)<<char(180);
-	}
-    cout<<endl;   	
-    }
-    {//khane avval bala
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;
-    {//khane avval vasat
-    cout<<char(179);
-    int a=4;
-    while(a--)
-    {
-        cout<<char(176)<<char(32)<<char(32)<<char(176)<<char(179);
-        cout<<char(176)<<char(32)<<char(32)<<char(176)<<char(179);
-    }
-    }
-   	cout<<endl;
-	{//khane avval payin
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;
-    {//khatte dovvom
-    cout<<char(195);
-	int a=7;
-	while(a--)
-	    {
-	    cout<<char(196)<<char(196)<<char(196)<<char(196)<<char(197);
-	    }
-    cout<<char(196)<<char(196)<<char(196)<<char(196)<<char(180);
-	}
-    cout<<endl;
-	{//khane dovvom bala
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;
-    {//khane dovvom vasat
-    cout<<char(179);
-    int a=4;
-    while(a--)
-    {
-        cout<<char(176)<<char(32)<<char(32)<<char(176)<<char(179);
-        cout<<char(176)<<char(32)<<char(32)<<char(176)<<char(179);
-    }
-    }
-   	cout<<endl;
-    {//khane dovvom payin
-	cout<<char(179);
-	int b=4;
-	while(b--)
-    	{
-	    int a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-	    a=4;
-        while(a--)
-            {cout<<char(176);}
-	    cout<<char(179);
-        }
-    }
-	cout<<endl;	
-    {//khatte akhar
-	cout<<char(192);
-    int b=7;
-    while(b--) 
-        {
-        int a=4;
-        while(a--)
-            {cout<<char(196);}
-        cout<<char(193);
-	    }
-	int a=4;
-    while(a--)
-        {cout<<char(196);}
-    cout<<char(217);
-    }
-	cout<<endl;
-}
 void print(int board[]) {
 	int i = 0;
 	string c[64]={
@@ -250,14 +13,12 @@ void print(int board[]) {
 	"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
 	"SW", "SW", "SW", "SW", "SW", "SW", "SW", "SW",
 	"RW", "AW", "FW", "VW", "KW", "FW", "AW", "RW" };
-      
      
 	char cha ='A';
 	cout << endl;
 	for(int i=1;i<=8;i++)
 	cout << "    "<<i << "  ";
 	cout << endl;
-
 
 	{cout << char(218);
 	int aa = 7;
@@ -292,7 +53,7 @@ void print(int board[]) {
 			cout << char(179);
 		}
 		}
-		 cout << endl;
+		cout << endl;
 		{cout << char(179);
 		int aa = 4;
 		while (aa--) {
@@ -300,10 +61,8 @@ void print(int board[]) {
 			cout << char(176) << char(176) << c[board[i++]] << char(176) << char(176) << char(179);
 		}
 		}
-
 		cout<< "  " << cha++;
 		cout << endl;
-
 		{cout << char(179);
 		int aa = 4;
 		while (aa--) {
@@ -351,10 +110,8 @@ void print(int board[]) {
 			cout << char(178) << char(178) << c[board[i++]] << char(178) << char(178) << char(179);
 		}
 		}
-
 		cout << "  " << cha++;
 		cout << endl;
-
 		{cout << char(179);
 		int aa = 4;
 		while (aa--) {
@@ -403,10 +160,8 @@ void print(int board[]) {
 		cout << char(176) << char(176)<< c[board[i++]] << char(176)<< char(176) << char(179);
 	}
 	}
-
 	cout << "  " << cha++;
 	cout << endl;
-
 	{cout << char(179);
 	int aa = 4;
 	while (aa--) {
@@ -454,7 +209,6 @@ void print(int board[]) {
 		cout << char(178)<< char(178)<< c[board[i++]] << char(178) << char(178)<< char(179);
 	}
 	}
-
 	cout << "  " << cha++;
 	cout << endl;
 
@@ -658,9 +412,6 @@ bool checkkw(int board[], int i, int j) {
 	re 0;
 }
 int main() {
-	
-	
-		khane();
 			bool turn = 1;
 			int a[64];
 			for (int i = 0; i < 64; i++)a[i] = i;
@@ -700,17 +451,14 @@ int main() {
 									a[j] = temp;
 									if (a[i] < 16 || a[i]>47)a[i] = 16;
 									system("cls");
-									khane();
 									print(a);
 								}
 								else {
-									cout << "ERROR                 incorrect destination\n";
+									cout << "ILLEGAL MOVE:                 WRONG DESTINATION\n";
 								}
-							
-
 						}
 						else {
-							cout << "ERROR          it is whites turn\n";
+							cout << "ILLEGAL MOVE:                 IT'S WHITE'S TURN\n";
 						}
 					}
 					else if (a[i] > 47) {
@@ -741,15 +489,14 @@ int main() {
 									a[j] = temp;
 									if (a[i] < 16 || a[i]>47)a[i] = 16;
 									system("cls");
-									khane();
 									print(a);
 								}
 								else {
-									cout << "ERROR                 incorrect destination\n";
+									cout << "ILLEGAL MOVE:                 WRONG DESTINATION\n";
 								}							
                 	}
 						else {
-							cout << "ERROR          it is blacks turn\n";
+							cout << "ILLEGAL MOVE:                 IT'S BLACK'S TURN\n";
 						}
 					}
 			}		
