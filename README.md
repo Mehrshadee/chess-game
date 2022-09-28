@@ -70,9 +70,7 @@ K (KING) : is able to mave a single step ( horizontaly/verticaly )
 As they are able to eliminate each other I used to delet the eliminated chestman and replace it with the attacker. (Using arrays)
 
 
-For making this game a bit easier for the players I avoided to write the CHECK rule and decided to make it simple by ending the game while each teams King be 
-
-eliminated.
+For making this game a bit easier for the players I avoided to write the CHECK rule and decided to make it simple by ending the game while each teams King be eliminated.
 
 
 
@@ -97,8 +95,6 @@ As it is considerable the table is updating after any movements and the privious
 
 
 This program first will ask for a 6-letter word and then the first 2 letters of the string is standing for the origin. The last two words are showing the location of 
-
-
 the destination.
 
 
@@ -106,8 +102,6 @@ two-middle letters are not important so it is better to type "to" so it would ma
 
 
 the programm will replace to arrays if the destination be space and if not, The destination should be replaced by space and then the chestman would replace it's 
-
-
 location with the space.
 
 
