@@ -1,4 +1,5 @@
-#CHESS GAME (simple edition)
+CHESS GAME (simple edition)
+
 
 
 
@@ -17,78 +18,58 @@ First you have to select the horizontal and vertical location of the chessman re
 Then you have to select the horizontal and vertical location of the destination respectivel afte a "to".
 
 
-Example : A3toF7
+Example : a3tof7
 
 
 Then if the chessman of the A3 were not allowed to move to the F7, It would respond an Error.
 
 
-You have to make sure that it is whites/blackes turn, otherwise you will face to "It is blacks/whites turn!" Error.
+You have to make sure that it is whites/blackes turn, otherwise you will face to "IT'S WHITE'S/BLACK'S TURN" Error.
 
 
 simple rules : No Checks! The only condition of wining is to eliminate the King!
 
 
++
+
+
 +How I wrote it :
 
 
-First I used the ASCII codes of the charectors to print the bordgame. void print(int board[]) is complitely showing the process.
+First I used the ASCII codes of the charectors to print the bordgame.
 
-Then I used to save the name of the chestmen in arrays using only two letters, Which the first one is standing for the first letter of the chestmen's name.
+void print(int board[]) is complitely showing the process.
 
+Then I used to save the name of the chestmen in arrays using only two letters, Which the first one is standing for the first letter of the chestmen's name,
 
-
-And the second one is standing for the color of the chestman. black or white. Here it is:
-
-
-string c[64]={
+And the second one is standing for the color of the chestman.
 
 
-"RB", "AB", "FB", "VB", "KB", "FB", "AB", "RB",
++
 
 
-"SB", "SB", "SB", "SB", "SB", "SB", "SB", "SB",
+Then I worked on the correct movement of the chestmen:
 
 
-"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
+S (SOLIDER) : is allowed to walk forward step by step. Soliders are allowed to move two steps in their first move and if they are going to aliminate opponents man, the should move ubliquity.
 
 
-"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
+R (ROOK) : is able to move horizontaly/verticaly 
 
 
-"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
+K (KNIGHT) : takes the L
 
 
-"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ",
+B (BISHOP) : is moving ubliquity
 
 
-"SW", "SW", "SW", "SW", "SW", "SW", "SW", "SW",
+Q (QUEEN) : is a combination of F's and R's movement
 
 
-"RW", "AW", "FW", "VW", "KW", "FW", "AW", "RW" };
+K (KING) : is able to mave a single step ( horizontaly/verticaly )
 
 
-Then I writed on the correct movement of the chestmen:
-
-
-S is allowed to walk forward step by step. Soliders are allowed to move two steps in their first move and if they are going to aliminate opponents man, the should move 
-
-ubliquity.
-
-
-R is able to move horizontaly/verticaly 
-
-
-A takes the L
-
-
-F is moving ubliquity
-
-
-V is a combination of F's and R's movement
-
-
-K is able to mave a single step ( horizontaly/verticaly)
++
 
 
 As they are able to eliminate each other I used to delet the eliminated chestman and replace it with the attacker.
