@@ -21,7 +21,7 @@ Then you have to select the horizontal and vertical location of the destination 
 Example : a3tof7
 
 
-Then if the chessman of the A3 were not allowed to move to the F7, It would respond an Error.
+Then if the chessman of the A3 were not allowed to move to the F7, It would respond an Error wich is "WRONG DESTINATION".
 
 
 You have to make sure that it is whites/blackes turn, otherwise you will face to "IT'S WHITE'S/BLACK'S TURN" Error.
